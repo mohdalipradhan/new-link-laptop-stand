@@ -1,5 +1,5 @@
 const gallery = [
- ['hero-desk-generated','On the desk','Silver laptop on the aluminium X-frame stand in a naturally lit workspace','png'],
+ ['laptop-stand-geometry-v2','On the desk','Silver laptop resting on the aluminium stand in a naturally lit workspace','png'],
  ['stand-product','The aluminium X-frame','Open silver aluminium laptop stand'],
  ['unfold-three-steps-generated','Opens in 3 steps','Three-step illustration: start flat, open the X-frame, then lift and set your height','png'],
  ['laptop-side-angle-generated','Height & angle','Side view of a laptop supported on the adjustable aluminium stand','png'],
