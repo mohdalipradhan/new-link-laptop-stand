@@ -1,0 +1,1 @@
+Six outline icons adapted from @tabler/icons 3.49.0 (MIT). Stroke colour: #a67820; width: 1.6. Source icons: user-exclamation, armchair, wind, shield-check, fold, desk. Used in the right-hand everyday problems panel.

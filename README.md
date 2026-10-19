@@ -17,3 +17,5 @@ Before publishing, supply confirmed compatibility, maximum load, delivery timing
 Validation: JavaScript syntax, local links, anchor targets, unique IDs, asset manifest, and all 32 JPEG files checked successfully. Visual layout and interactive browser QA remain unverified because local browser launch and file previews were unavailable in this environment.
 
 The Height & angle section uses a manual two-slide carousel with generated 6 cm / 14 cm illustrations, arrow buttons, setting selectors, keyboard controls and mobile swipe support.
+
+Everyday problems panel: six locally stored gold outline SVG icons, adapted from Tabler Icons 3.49.0 under MIT. Attribution and license in assets/icons/.
