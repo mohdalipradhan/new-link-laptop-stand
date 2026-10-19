@@ -407,5 +407,32 @@
     "animated": true,
     "frames": 60,
     "duration_ms": 4000
+  },
+  {
+    "file": "assets/comparison-flat-desk.webp",
+    "size": [
+      1448,
+      1086
+    ],
+    "source": "AI-generated product-only setup comparison scene",
+    "animated": false
+  },
+  {
+    "file": "assets/comparison-raised-stand.webp",
+    "size": [
+      1448,
+      1086
+    ],
+    "source": "AI-generated product-only setup comparison scene",
+    "animated": false
+  },
+  {
+    "file": "assets/icons/keyboard.svg",
+    "size": [
+      24,
+      24
+    ],
+    "source": "Tabler Icons 3.49.0, MIT, adapted gold stroke",
+    "animated": false
   }
 ]

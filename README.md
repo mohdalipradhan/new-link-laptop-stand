@@ -19,3 +19,5 @@ Validation: JavaScript syntax, local links, anchor targets, unique IDs, asset ma
 The Height & angle section uses a manual two-slide carousel with generated 6 cm / 14 cm illustrations, arrow buttons, setting selectors, keyboard controls and mobile swipe support.
 
 Everyday problems panel: six locally stored gold outline SVG icons, adapted from Tabler Icons 3.49.0 under MIT. Attribution and license in assets/icons/.
+
+The setup comparison section is native HTML/CSS with two separate WebP product scenes and a Tabler keyboard SVG. All headings, labels, captions, note and height-settings link remain editable and accessible HTML. No full UI screenshot is embedded.
