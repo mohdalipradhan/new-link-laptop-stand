@@ -387,5 +387,14 @@
     ],
     "source": "AI-generated flat, expanded X-frame top view based on user reference",
     "animated": false
+  },
+  {
+    "file": "assets/raised-stand-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "source": "AI-generated fully raised stand based on user reference",
+    "animated": false
   }
 ]
