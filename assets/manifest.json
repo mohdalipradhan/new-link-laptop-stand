@@ -560,5 +560,14 @@
     ],
     "source": "First frame of supplied open-frame airflow video",
     "animated": false
+  },
+  {
+    "file": "assets/office-desk-corrected.webp",
+    "size": [
+      1586,
+      992
+    ],
+    "source": "User-approved office desk image with corrected laptop-to-stand geometry",
+    "animated": false
   }
 ]
