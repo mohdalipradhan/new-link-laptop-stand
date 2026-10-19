@@ -461,5 +461,68 @@
     ],
     "source": "User-approved third generated geometry revision; laptop seated in retaining hooks",
     "animated": false
+  },
+  {
+    "file": "assets/icons/benefit-height.svg",
+    "size": [
+      24,
+      24
+    ],
+    "source": "Tabler Icons 3.49.0 MIT, adapted to approved gold outline style; arrows-vertical",
+    "animated": false
+  },
+  {
+    "file": "assets/icons/benefit-angle.svg",
+    "size": [
+      24,
+      24
+    ],
+    "source": "Tabler Icons 3.49.0 MIT, adapted to approved gold outline style; angle",
+    "animated": false
+  },
+  {
+    "file": "assets/icons/benefit-silicone.svg",
+    "size": [
+      24,
+      24
+    ],
+    "source": "Tabler Icons 3.49.0 MIT, adapted to approved gold outline style; stack-2",
+    "animated": false
+  },
+  {
+    "file": "assets/icons/benefit-airflow.svg",
+    "size": [
+      24,
+      24
+    ],
+    "source": "Tabler Icons 3.49.0 MIT, adapted to approved gold outline style; wind",
+    "animated": false
+  },
+  {
+    "file": "assets/icons/benefit-fold.svg",
+    "size": [
+      24,
+      24
+    ],
+    "source": "Tabler Icons 3.49.0 MIT, adapted to approved gold outline style; map",
+    "animated": false
+  },
+  {
+    "file": "assets/icons/benefit-no-tools.svg",
+    "size": [
+      24,
+      24
+    ],
+    "source": "Tabler Icons 3.49.0 MIT, adapted to approved gold outline style; tools",
+    "animated": false
+  },
+  {
+    "file": "assets/benefits-stand.webp",
+    "size": [
+      1254,
+      1254
+    ],
+    "source": "Previously generated raised-stand asset, converted to WebP",
+    "animated": false
   }
 ]

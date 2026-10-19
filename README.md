@@ -21,3 +21,5 @@ The Height & angle section uses a manual two-slide carousel with generated 6 cm 
 Everyday problems panel: six locally stored gold outline SVG icons, adapted from Tabler Icons 3.49.0 under MIT. Attribution and license in assets/icons/.
 
 The setup comparison section is native HTML/CSS with two separate WebP product scenes and a Tabler keyboard SVG. All headings, labels, captions, note and height-settings link remain editable and accessible HTML. No full UI screenshot is embedded.
+
+Benefits strip replaced with the approved second variation: product image on the left, native HTML definition list with six separate gold SVG icons on the right. Stacks on mobile.
