@@ -396,5 +396,16 @@
     ],
     "source": "AI-generated fully raised stand based on user reference",
     "animated": false
+  },
+  {
+    "file": "assets/neck-discomfort-loop.gif",
+    "size": [
+      800,
+      450
+    ],
+    "source": "User-supplied loop-pain-neck-night.mp4 converted to looping GIF",
+    "animated": true,
+    "frames": 60,
+    "duration_ms": 4000
   }
 ]
