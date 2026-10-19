@@ -452,5 +452,14 @@
     ],
     "source": "User-approved AI-generated setup comparison scene",
     "animated": false
+  },
+  {
+    "file": "assets/comparison-raised-stand-v2.webp",
+    "size": [
+      1448,
+      1086
+    ],
+    "source": "User-approved third generated geometry revision; laptop seated in retaining hooks",
+    "animated": false
   }
 ]
