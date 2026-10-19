@@ -351,5 +351,14 @@
     ],
     "source": "AI-generated laptop side-view image based on user references",
     "animated": false
+  },
+  {
+    "file": "assets/unfold-three-steps-generated.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "source": "AI-generated three-step setup illustration based on user references",
+    "animated": false
   }
 ]

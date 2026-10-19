@@ -1,7 +1,7 @@
 const gallery = [
  ['hero-desk','On the desk','Silver aluminium stand holding a laptop on a wooden desk'],
  ['stand-product','The aluminium X-frame','Open silver aluminium laptop stand'],
- ['unfold-diagram-poster','Opens in 3 steps','Setup diagram showing how to unfold the stand'],
+ ['unfold-three-steps-generated','Opens in 3 steps','Three-step illustration: start flat, open the X-frame, then lift and set your height','png'],
  ['laptop-side-angle-generated','Height & angle','Side view of a laptop supported on the adjustable aluminium stand','png'],
  ['grey-silicone-pad-generated','Grey silicone pads','Close-up of the grey silicone pad','png'],
  ['lifestyle-home','Work from home','Woman using a raised laptop and separate keyboard'],
@@ -21,7 +21,7 @@ function showImage(i){
  const [file,caption,alt,ext="jpg"]=gallery[current];
  const image=document.querySelector('#gallery-main');
  image.src=`assets/${file}.${ext}`;image.alt=alt;
- image.style.objectFit=(current===1||file==='stand-with-dumbbells-generated'||file==='laptop-side-angle-generated')?'contain':'cover';
+ image.style.objectFit=(current===1||current===2||file==='stand-with-dumbbells-generated'||file==='laptop-side-angle-generated')?'contain':'cover';
  document.querySelector('#gallery-caption').textContent=caption;
  [...thumbs.children].forEach((button,index)=>button.setAttribute('aria-pressed',String(index===current)));
 }
