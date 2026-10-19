@@ -378,5 +378,14 @@
     ],
     "source": "AI-generated folded top-view image based on user reference",
     "animated": false
+  },
+  {
+    "file": "assets/x-frame-top-view-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "source": "AI-generated flat, expanded X-frame top view based on user reference",
+    "animated": false
   }
 ]
