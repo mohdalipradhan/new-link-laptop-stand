@@ -23,3 +23,5 @@ Everyday problems panel: six locally stored gold outline SVG icons, adapted from
 The setup comparison section is native HTML/CSS with two separate WebP product scenes and a Tabler keyboard SVG. All headings, labels, captions, note and height-settings link remain editable and accessible HTML. No full UI screenshot is embedded.
 
 Benefits strip replaced with the approved second variation: product image on the left, native HTML definition list with six separate gold SVG icons on the right. Stacks on mobile.
+
+Flat-on-desk airflow illustration replaced with the supplied 6-second video, optimized as an audio-free looping MP4 with a poster, pause/play control and reduced-motion support. Captions are native HTML.

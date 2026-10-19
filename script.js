@@ -76,3 +76,14 @@ if(heightCarousel){
  },{passive:true});
  heightCarousel.querySelector('.height-slides').addEventListener('touchcancel',()=>{touchStart=null},{passive:true});
 }
+
+const flatDeskVideo=document.querySelector('#flat-desk-video');
+const flatDeskToggle=document.querySelector('.airflow-animation-toggle');
+if(flatDeskVideo&&flatDeskToggle){
+ const syncFlatDeskLabel=()=>{flatDeskToggle.textContent=flatDeskVideo.paused?'Play animation':'Pause animation'};
+ const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
+ const applyFlatDeskMotion=()=>{if(reducedMotion.matches){flatDeskVideo.autoplay=false;flatDeskVideo.pause()}syncFlatDeskLabel()};
+ applyFlatDeskMotion();reducedMotion.addEventListener('change',applyFlatDeskMotion);
+ flatDeskVideo.addEventListener('play',syncFlatDeskLabel);flatDeskVideo.addEventListener('pause',syncFlatDeskLabel);
+ flatDeskToggle.addEventListener('click',()=>{if(flatDeskVideo.paused){flatDeskVideo.play().catch(syncFlatDeskLabel)}else{flatDeskVideo.pause()}});
+}

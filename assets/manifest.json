@@ -524,5 +524,23 @@
     ],
     "source": "Previously generated raised-stand asset, converted to WebP",
     "animated": false
+  },
+  {
+    "file": "assets/flat-desk-warmth-loop.mp4",
+    "size": [
+      800,
+      800
+    ],
+    "source": "User-supplied Grok video, optimized H.264 with audio removed",
+    "animated": true
+  },
+  {
+    "file": "assets/flat-desk-warmth-poster.webp",
+    "size": [
+      960,
+      960
+    ],
+    "source": "First frame of user-supplied Grok video",
+    "animated": false
   }
 ]
