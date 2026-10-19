@@ -6,6 +6,8 @@ const gallery = [
  ['grey-silicone-pad-generated','Grey silicone pads','Close-up of the grey silicone pad','png'],
  ['lifestyle-home','Work from home','Woman using a raised laptop and separate keyboard'],
  ['travel-bag','Fold & carry','Folded stand beside a laptop bag'],
+ ['posture-before-generated','Before · Laptop flat on desk','Person looking down while using a laptop directly on the desk','webp'],
+ ['posture-after-generated','After · Raised laptop setup','Same person using a raised laptop with a separate keyboard and mouse','webp'],
  ['stand-with-dumbbells-generated','With dumbbells · AI illustration; load capacity unverified','AI-generated conceptual illustration of a silver laptop stand supporting two black dumbbells','png']
 ];
 const thumbs = document.querySelector('#thumbnails');
@@ -21,7 +23,7 @@ function showImage(i){
  const [file,caption,alt,ext="jpg"]=gallery[current];
  const image=document.querySelector('#gallery-main');
  image.src=`assets/${file}.${ext}`;image.alt=alt;
- image.style.objectFit=(current===1||current===2||file==='stand-with-dumbbells-generated'||file==='laptop-side-angle-generated')?'contain':'cover';
+ image.style.objectFit=(current===1||current===2||file==='stand-with-dumbbells-generated'||file==='laptop-side-angle-generated'||file.startsWith('posture-'))?'contain':'cover';
  document.querySelector('#gallery-caption').textContent=caption;
  [...thumbs.children].forEach((button,index)=>button.setAttribute('aria-pressed',String(index===current)));
 }

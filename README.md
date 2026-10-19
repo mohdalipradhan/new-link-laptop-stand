@@ -4,7 +4,7 @@ Open index.html in a browser. No installation, build step, CDN or network access
 
 - index.html: responsive product page covering the 13 content sections in the PDF; repeated PDF navigation and footers consolidated.
 - styles.css: reference-inspired styling and mobile layouts.
-- script.js: eight-image gallery, keyboard navigation, mobile menu, payment preference dialog.
+- script.js: ten-image gallery, keyboard navigation, mobile menu, payment preference dialog.
 - assets.html: browse and download the reference images and generated assets.
 - assets/manifest.json: file dimensions and source PDF page numbers.
 

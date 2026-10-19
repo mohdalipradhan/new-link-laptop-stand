@@ -434,5 +434,23 @@
     ],
     "source": "Tabler Icons 3.49.0, MIT, adapted gold stroke",
     "animated": false
+  },
+  {
+    "file": "assets/posture-before-generated.webp",
+    "size": [
+      1448,
+      1086
+    ],
+    "source": "User-approved AI-generated setup comparison scene",
+    "animated": false
+  },
+  {
+    "file": "assets/posture-after-generated.webp",
+    "size": [
+      1448,
+      1086
+    ],
+    "source": "User-approved AI-generated setup comparison scene",
+    "animated": false
   }
 ]
