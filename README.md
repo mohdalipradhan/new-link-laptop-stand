@@ -25,3 +25,5 @@ The setup comparison section is native HTML/CSS with two separate WebP product s
 Benefits strip replaced with the approved second variation: product image on the left, native HTML definition list with six separate gold SVG icons on the right. Stacks on mobile.
 
 Flat-on-desk airflow illustration replaced with the supplied 6-second video, optimized as an audio-free looping MP4 with a poster, pause/play control and reduced-motion support. Captions are native HTML.
+
+Payment options: online ₹599 is recommended and selected by default; COD ₹699 remains explicit. Selections sync with the order dialog and mobile bar. Set razorpayPaymentLink in payment-config.js to a real merchant ₹599 HTTPS Razorpay payment link to activate direct checkout. The online option shows Powered by Razorpay based on the seller confirming they are registered. Until a link is configured, the button continues to seller contact and asks for a Razorpay payment link. Never put API keys in this public config.

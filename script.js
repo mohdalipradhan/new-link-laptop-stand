@@ -38,14 +38,36 @@ const menu=document.querySelector('#menu-toggle'),nav=document.querySelector('#n
 menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open))});
 nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false')}));
 const dialog=document.querySelector('#order-dialog');
+let selectedPayment='online';
+let razorpayPaymentLink='';
+try{
+ const configured=window.LAPTOP_STAND_PAYMENT?.razorpayPaymentLink;
+ if(configured){
+  const url=new URL(configured);
+  if(url.protocol==='https:'&&(url.hostname==='rzp.io'||url.hostname==='razorpay.com'||url.hostname.endsWith('.razorpay.com'))){razorpayPaymentLink=url.href}
+ }
+}catch{}
 function updateOrder(){
- const online=document.querySelector('input[name=payment]:checked').value==='online';
- const text=`Hi, I would like to order the foldable aluminium laptop stand (SKU DS106719) with ${online?'online payment at ₹599':'Cash on Delivery at ₹699'}. Please confirm availability, delivery and return terms.`;
+ const online=selectedPayment==='online';
+ document.querySelectorAll('[name="hero-payment"],[name="payment"]').forEach(radio=>{radio.checked=radio.value===selectedPayment});
+ document.querySelectorAll('.payment-variant').forEach(label=>label.classList.toggle('is-selected',label.querySelector('input').checked));
+ document.querySelector('.payment-main-button').textContent=online?'Express checkout · ₹599':'Continue with COD · ₹699';
+ document.querySelector('.payment-gateway').hidden=!online;
+ const mobile=document.querySelector('.mobile-buy');
+ mobile.querySelector('div').innerHTML=online?'<b>₹599 <small>online</small></b><small>Save ₹100 · Free shipping</small>':'<b>₹699 <small>COD</small></b><small>Pay at your door · Free shipping</small>';
+ mobile.querySelector('[data-order]').textContent=online?'Express checkout':'Choose COD';
+ const text=`Hi, I would like to order the foldable aluminium laptop stand (SKU DS106719) with ${online?'online payment at ₹599 via Razorpay (please share your payment link)':'Cash on Delivery at ₹699'}. Please confirm availability, delivery and return terms.`;
  document.querySelector('#order-whatsapp').href='https://wa.me/919131956290?text='+encodeURIComponent(text);
+ document.querySelector('#order-payment-summary').textContent=online?'Online payment · ₹599. Confirm your order with New Link and request a Razorpay payment link.':'Cash on Delivery · ₹699. Contact New Link to confirm your delivery details.';
 }
-document.querySelectorAll('[data-order]').forEach(b=>b.addEventListener('click',()=>{updateOrder();dialog.showModal()}));
-document.querySelectorAll('[name=payment]').forEach(r=>r.addEventListener('change',updateOrder));
-dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close()}});
+document.querySelectorAll('[name="hero-payment"],[name="payment"]').forEach(radio=>radio.addEventListener('change',()=>{selectedPayment=radio.value;updateOrder()}));
+document.querySelectorAll('[data-order]').forEach(button=>button.addEventListener('click',()=>{
+ updateOrder();
+ if(selectedPayment==='online'&&razorpayPaymentLink){window.location.assign(razorpayPaymentLink);return}
+ dialog.showModal();
+}));
+dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close()}});
+updateOrder();
 
 // Two height illustrations: manual controls, arrow keys and touch swipes.
 const heightCarousel=document.querySelector('.height-carousel');
