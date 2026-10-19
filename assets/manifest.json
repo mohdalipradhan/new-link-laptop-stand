@@ -542,5 +542,23 @@
     ],
     "source": "First frame of user-supplied Grok video",
     "animated": false
+  },
+  {
+    "file": "assets/open-frame-airflow-loop.mp4",
+    "size": [
+      800,
+      592
+    ],
+    "source": "User-supplied Grok airflow video, H.264 with audio removed",
+    "animated": true
+  },
+  {
+    "file": "assets/open-frame-airflow-poster.webp",
+    "size": [
+      800,
+      592
+    ],
+    "source": "First frame of supplied open-frame airflow video",
+    "animated": false
   }
 ]

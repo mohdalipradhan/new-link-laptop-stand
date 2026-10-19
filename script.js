@@ -77,13 +77,18 @@ if(heightCarousel){
  heightCarousel.querySelector('.height-slides').addEventListener('touchcancel',()=>{touchStart=null},{passive:true});
 }
 
-const flatDeskVideo=document.querySelector('#flat-desk-video');
-const flatDeskToggle=document.querySelector('.airflow-animation-toggle');
-if(flatDeskVideo&&flatDeskToggle){
- const syncFlatDeskLabel=()=>{flatDeskToggle.textContent=flatDeskVideo.paused?'Play animation':'Pause animation'};
+// Each airflow video has its own pause control and respects reduced motion.
+document.querySelectorAll('.airflow-animation-toggle').forEach(toggle=>{
+ const video=document.getElementById(toggle.getAttribute('aria-controls'));
+ if(!video)return;
+ const name=video.id==='flat-desk-video'?'flat-desk':'open-frame';
+ const syncLabel=()=>{
+  toggle.textContent=video.paused?'Play animation':'Pause animation';
+  toggle.setAttribute('aria-label',`${video.paused?'Play':'Pause'} ${name} animation`);
+ };
  const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
- const applyFlatDeskMotion=()=>{if(reducedMotion.matches){flatDeskVideo.autoplay=false;flatDeskVideo.pause()}syncFlatDeskLabel()};
- applyFlatDeskMotion();reducedMotion.addEventListener('change',applyFlatDeskMotion);
- flatDeskVideo.addEventListener('play',syncFlatDeskLabel);flatDeskVideo.addEventListener('pause',syncFlatDeskLabel);
- flatDeskToggle.addEventListener('click',()=>{if(flatDeskVideo.paused){flatDeskVideo.play().catch(syncFlatDeskLabel)}else{flatDeskVideo.pause()}});
-}
+ const applyMotion=()=>{if(reducedMotion.matches){video.autoplay=false;video.pause()}syncLabel()};
+ applyMotion();reducedMotion.addEventListener('change',applyMotion);
+ video.addEventListener('play',syncLabel);video.addEventListener('pause',syncLabel);
+ toggle.addEventListener('click',()=>{if(video.paused){video.play().catch(syncLabel)}else{video.pause()}});
+});
