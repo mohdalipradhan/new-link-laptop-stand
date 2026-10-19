@@ -33,3 +33,6 @@
 
 /* Discount pricing and official payment branding. */
 .payment-compare{display:block;font-size:12px;font-weight:500;color:var(--muted);letter-spacing:0;margin-bottom:4px}.payment-discount{display:block;font-size:10px;font-weight:750;line-height:1.4;color:#175c37;background:#dceedd;border-radius:4px;padding:3px 5px;margin-top:5px;letter-spacing:0;text-align:center}.payment-gateway .razorpay-logo{width:90px;height:20px}.payment-variant-price{font-variant-numeric:tabular-nums;text-align:right}
+
+/* Keep the product gallery beside the purchasing details while scrolling. */
+@media(min-width:701px) and (min-height:550px){.hero>.gallery{position:sticky;top:100px;align-self:start}.hero-photo>img{max-height:calc(100dvh - 220px);object-fit:contain}}
