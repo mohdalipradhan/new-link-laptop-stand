@@ -360,5 +360,14 @@
     ],
     "source": "AI-generated three-step setup illustration based on user references",
     "animated": false
+  },
+  {
+    "file": "assets/hero-desk-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "source": "AI-generated hero image based on product reference",
+    "animated": false
   }
 ]
