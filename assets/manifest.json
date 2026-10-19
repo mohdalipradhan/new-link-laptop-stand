@@ -1,0 +1,355 @@
+[
+  {
+    "file": "assets/hero-desk.jpg",
+    "page": 1,
+    "size": [
+      1280,
+      720
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/stand-product.jpg",
+    "page": 1,
+    "size": [
+      640,
+      640
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/unfold-diagram-poster.jpg",
+    "page": 1,
+    "size": [
+      1280,
+      800
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/height-diagram-poster.jpg",
+    "page": 1,
+    "size": [
+      1280,
+      800
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/grey-silicone-pad-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "source": "AI-generated high-resolution close-up based on user reference",
+    "animated": false
+  },
+  {
+    "file": "assets/lifestyle-home.jpg",
+    "page": 1,
+    "size": [
+      1280,
+      720
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/travel-bag.jpg",
+    "page": 1,
+    "size": [
+      1280,
+      720
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/front-hook-v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "source": "AI-generated revised front hook based on actual product reference",
+    "animated": false
+  },
+  {
+    "file": "assets/frosted-aluminium.jpg",
+    "page": 1,
+    "size": [
+      330,
+      330
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/folded-detail.jpg",
+    "page": 1,
+    "size": [
+      168,
+      150
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/unfold-flat.jpg",
+    "page": 2,
+    "size": [
+      516,
+      522
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/unfold-x-frame.jpg",
+    "page": 2,
+    "size": [
+      516,
+      522
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/unfold-raised.jpg",
+    "page": 2,
+    "size": [
+      516,
+      522
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/neck-discomfort.jpg",
+    "page": 4,
+    "size": [
+      1280,
+      720
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/neck-discomfort-alternate.jpg",
+    "page": 4,
+    "size": [
+      1280,
+      720
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/plastic-riser.jpg",
+    "page": 4,
+    "size": [
+      1280,
+      720
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/posture-diagram-poster.jpg",
+    "page": 5,
+    "size": [
+      1280,
+      800
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/lifestyle-home-alternate.jpg",
+    "page": 5,
+    "size": [
+      1280,
+      720
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/lifestyle-dining.jpg",
+    "page": 5,
+    "size": [
+      1280,
+      720
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/product-home-photo.jpg",
+    "page": 5,
+    "size": [
+      636,
+      538
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/folded-stand-generated.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "source": "AI-generated folded stand based on user-supplied product reference",
+    "animated": false
+  },
+  {
+    "file": "assets/office-desk.jpg",
+    "page": 6,
+    "size": [
+      1280,
+      720
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/airflow-diagram-poster.jpg",
+    "page": 7,
+    "size": [
+      1280,
+      800
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/pad-hook-closeup.jpg",
+    "page": 7,
+    "size": [
+      1280,
+      720
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/silicone-pad-detail.jpg",
+    "page": 7,
+    "size": [
+      188,
+      288
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/desk-flatlay.jpg",
+    "page": 8,
+    "size": [
+      1280,
+      720
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/fold-into-bag.jpg",
+    "page": 8,
+    "size": [
+      1280,
+      720
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/folded-bag-photo.jpg",
+    "page": 8,
+    "size": [
+      690,
+      624
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/lifestyle-student.jpg",
+    "page": 9,
+    "size": [
+      1280,
+      720
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/office-desk-alternate.jpg",
+    "page": 9,
+    "size": [
+      1280,
+      720
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/hero-desk-alternate.jpg",
+    "page": 10,
+    "size": [
+      1280,
+      720
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/lifestyle-student-alternate.jpg",
+    "page": 11,
+    "size": [
+      1280,
+      720
+    ],
+    "source": "Extracted embedded still from supplied PDF",
+    "animated": false
+  },
+  {
+    "file": "assets/stand-with-dumbbells-generated.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "source": "New AI-generated conceptual illustration based on user-provided concept reference; does not verify load capacity",
+    "animated": false
+  },
+  {
+    "file": "assets/height-low-6cm-generated.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "source": "AI-generated height illustration: Lowest setting, approximately 6 cm",
+    "animated": false
+  },
+  {
+    "file": "assets/height-high-14cm-generated.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "source": "AI-generated height illustration: Highest setting, approximately 14 cm",
+    "animated": false
+  },
+  {
+    "file": "assets/laptop-side-angle-generated.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "source": "AI-generated laptop side-view image based on user references",
+    "animated": false
+  }
+]
